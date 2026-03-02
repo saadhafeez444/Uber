@@ -70,7 +70,7 @@ class _RateReviewScreenState extends State<RateReviewScreen> {
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(
                   prefixText: '\$ ',
-                  hintText: 'Enter tip amount',
+                  hintText: 'Enter tip amounts',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(16),
                   ),
@@ -92,7 +92,7 @@ class _RateReviewScreenState extends State<RateReviewScreen> {
                     )
                     .toList(),
                 decoration: InputDecoration(
-                  hintText: 'Select Payment Method',
+                  hintText: 'Select Payment Methods',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(16),
                   ),
@@ -120,7 +120,7 @@ class _RateReviewScreenState extends State<RateReviewScreen> {
                     ),
                   ),
                   child: Text(
-                    'Submit Tip & Review',
+                    'Submit Tips & Reviews',
                     style: GoogleFonts.montserrat(
                       fontWeight: FontWeight.w600,
                       fontSize: 16,
